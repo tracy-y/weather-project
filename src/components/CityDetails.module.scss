@@ -1,0 +1,56 @@
+// @import '../styles/variables';
+
+.detailInfo{
+height:auto;
+width:auto;
+margin: 0%;
+padding:0;
+}
+
+.wrapper{
+color: white;
+position: relative;
+justify-content: space-between;
+ background-image: url("https://publicholidays.fr/wp-content/uploads/2012/12/France_1920_800_homepage.jpg"); 
+ background-size:100% 100%;
+ background-repeat:no-repeat; 
+ height:50vh;
+ width: 100%;
+ flex:1 0 100%
+}
+
+.div1{
+    border: 2px white;
+}
+
+.temp_c{
+    font-size: 100px;
+    padding-left: 65px;
+    padding-top: 45px;
+    line-height: 80px;
+    
+}
+.text{
+    font-size:30px;
+    padding:55px;
+    line-height: 60px;
+}
+
+.inline{
+    width:100px;
+    height: auto;
+    float: left;
+    display: inline;
+    padding-left: 30px;
+
+}
+
+.country{
+    text-align: right;
+    width:90%;
+    font-size: 45px;
+    position: absolute;
+    top:60px;
+    right:30px;
+}
+
